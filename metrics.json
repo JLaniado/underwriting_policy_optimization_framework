@@ -3,10 +3,10 @@
   "rules_applied": [
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_uw_score <= 0.516786",
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_uw_score > 0.516786",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & acquisition_uw_score <= 0.808913",
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & first_loan_principal > 423.479996 & first_loan_principal > 1001.600006",
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te > 0.233899",
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te <= 0.233899",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & acquisition_uw_score > 0.808913"
+    "acquisition_uw_score > 0.838233 & acquisition_uw_score <= 0.917851 & limit_utilization > 0.889079 & limit_utilization > 2.473115"
   ],
   "baseline": {
     "kept_pct": 100.0,
@@ -15,17 +15,17 @@
     "good_n": 136847
   },
   "final": {
-    "kept_pct": 91.89310650984862,
-    "overall_fpd_pct": 22.67191507127095,
-    "bad_n": 38014,
-    "good_n": 129656
+    "kept_pct": 93.01498394186186,
+    "overall_fpd_pct": 22.863944095170194,
+    "bad_n": 38804,
+    "good_n": 130913
   },
   "band_fpd_pct_final": {
     "1": 14.79398901713196,
-    "2": 18.86879316014469,
-    "3": 21.933574482078264,
-    "4": 24.633344294639922,
-    "5": 27.52655323079109,
-    "6": 32.81686989596152
+    "2": 18.840150167951,
+    "3": 21.63732923611343,
+    "4": 24.14318612842048,
+    "5": 27.164441321152495,
+    "6": 34.483415028791704
   }
 }
