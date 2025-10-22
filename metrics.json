@@ -6,10 +6,7 @@
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & acquisition_uw_score <= 0.808913",
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te > 0.233899",
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te <= 0.233899",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & acquisition_uw_score > 0.808913",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing <= 0.500000 & acquisition_uw_score <= 0.785268",
-    "acquisition_uw_score > 0.838233 & acquisition_uw_score <= 0.917851 & phone_carrier_te > 0.271224 & acquisition_uw_score <= 0.878581",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing <= 0.500000 & acquisition_uw_score > 0.785268"
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & acquisition_uw_score > 0.808913"
   ],
   "baseline": {
     "kept_pct": 100.0,
@@ -18,17 +15,17 @@
     "good_n": 136847
   },
   "final": {
-    "kept_pct": 74.82105863138626,
-    "overall_fpd_pct": 20.46220334016994,
-    "bad_n": 27935,
-    "good_n": 108585
+    "kept_pct": 91.89310650984862,
+    "overall_fpd_pct": 22.67191507127095,
+    "bad_n": 38014,
+    "good_n": 129656
   },
   "band_fpd_pct_final": {
-    "1": NaN,
-    "2": 25.50904056035185,
-    "3": 23.55611789222983,
-    "4": 21.933574482078264,
-    "5": 18.86879316014469,
-    "6": 14.79398901713196
+    "1": 14.79398901713196,
+    "2": 18.86879316014469,
+    "3": 21.933574482078264,
+    "4": 24.633344294639922,
+    "5": 27.52655323079109,
+    "6": 32.81686989596152
   }
 }
