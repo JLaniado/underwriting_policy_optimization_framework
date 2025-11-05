@@ -1,12 +1,13 @@
 {
   "total_applicants": 182462,
   "rules_applied": [
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_uw_score <= 0.516786",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_uw_score > 0.516786",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & first_loan_principal > 423.479996 & first_loan_principal > 1001.600006",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te > 0.233899",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te <= 0.233899",
-    "acquisition_uw_score > 0.838233 & acquisition_uw_score <= 0.917851 & limit_utilization > 0.889079 & limit_utilization > 2.473115"
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_channel_source_b <= 0.500000 & acquisition_uw_score <= 0.491564",
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_channel_source_b <= 0.500000 & acquisition_uw_score > 0.491564",
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & hotspots_overdue_ratio > 0.184984 & acquisition_uw_score <= 0.782922",
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_channel_source_b > 0.500000",
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te > 0.245457",
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te <= 0.245457 & credits_total_credito_maximo <= 75910.000000",
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & hotspots_overdue_ratio > 0.184984 & acquisition_uw_score > 0.782922"
   ],
   "baseline": {
     "kept_pct": 100.0,
@@ -15,17 +16,17 @@
     "good_n": 136847
   },
   "final": {
-    "kept_pct": 93.01498394186186,
-    "overall_fpd_pct": 22.863944095170194,
-    "bad_n": 38804,
-    "good_n": 130913
+    "kept_pct": 93.54824566211046,
+    "overall_fpd_pct": 22.97088288710528,
+    "bad_n": 39209,
+    "good_n": 131481
   },
   "band_fpd_pct_final": {
     "1": 14.79398901713196,
-    "2": 18.840150167951,
-    "3": 21.63732923611343,
-    "4": 24.14318612842048,
-    "5": 27.164441321152495,
-    "6": 34.483415028791704
+    "2": 18.86879316014469,
+    "3": 21.933574482078264,
+    "4": 24.633344294639922,
+    "5": 27.650684216024235,
+    "6": 33.7924249877029
   }
 }
