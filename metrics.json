@@ -1,22 +1,16 @@
 {
   "total_applicants": 182462,
   "rules_applied": [
-<<<<<<< HEAD
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_channel_source_b <= 0.500000 & acquisition_uw_score <= 0.491564",
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_channel_source_b <= 0.500000 & acquisition_uw_score > 0.491564",
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & hotspots_overdue_ratio > 0.184984 & acquisition_uw_score <= 0.782922",
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_channel_source_b > 0.500000",
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te > 0.245457",
     "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te <= 0.245457 & credits_total_credito_maximo <= 75910.000000",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & hotspots_overdue_ratio > 0.184984 & acquisition_uw_score > 0.782922"
-=======
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_uw_score <= 0.516786",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score <= 0.597289 & acquisition_uw_score > 0.516786",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & hotspots_overdue_ratio > 0.190947 & acquisition_uw_score <= 0.810201",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te > 0.233899",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te <= 0.233899",
-    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & hotspots_overdue_ratio > 0.190947 & acquisition_uw_score > 0.810201"
->>>>>>> 6f6427d108aca61f44a7a5206b6c968f6139c355
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing > 0.500000 & hotspots_overdue_ratio > 0.184984 & acquisition_uw_score > 0.782922",
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score <= 0.689887 & acquisition_uw_score > 0.597289 & phone_carrier_te <= 0.245457 & credits_total_credito_maximo > 75910.000000",
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing <= 0.500000 & acquisition_uw_score <= 0.758240 & credits_pp_active_credito_maximo <= 512.500000",
+    "acquisition_uw_score <= 0.838233 & acquisition_uw_score > 0.689887 & apps_installed_count_missing <= 0.500000 & acquisition_uw_score <= 0.758240 & credits_pp_active_credito_maximo > 512.500000"
   ],
   "baseline": {
     "kept_pct": 100.0,
@@ -25,29 +19,17 @@
     "good_n": 136847
   },
   "final": {
-<<<<<<< HEAD
-    "kept_pct": 93.54824566211046,
-    "overall_fpd_pct": 22.97088288710528,
-    "bad_n": 39209,
-    "good_n": 131481
-=======
-    "kept_pct": 92.92236191645384,
-    "overall_fpd_pct": 22.83660084459858,
-    "bad_n": 38719,
-    "good_n": 130829
->>>>>>> 6f6427d108aca61f44a7a5206b6c968f6139c355
+    "kept_pct": 90.25824555249861,
+    "overall_fpd_pct": 22.342382823173658,
+    "bad_n": 36795,
+    "good_n": 127892
   },
   "band_fpd_pct_final": {
     "1": 14.79398901713196,
     "2": 18.86879316014469,
     "3": 21.933574482078264,
     "4": 24.633344294639922,
-<<<<<<< HEAD
     "5": 27.650684216024235,
-    "6": 33.7924249877029
-=======
-    "5": 27.68263452252753,
-    "6": 33.22175732217573
->>>>>>> 6f6427d108aca61f44a7a5206b6c968f6139c355
+    "6": 31.10211488797376
   }
 }
