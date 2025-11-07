@@ -92,10 +92,6 @@ metrics.json                   → Global KPIs and performance metrics
 	•	Exported visuals under /outputs/.
 	4.	Use clean_rules.md as the baseline for policy simulation or A/B testing.
 
-⸻
-
-🔒 Access and Governance
-	•	Classification: Confidential
   
 ⸻
 
@@ -109,6 +105,5 @@ metrics.json                   → Global KPIs and performance metrics
 
 Author: Jaime Laniado Cohen
 Owner: Jaime Laniado Cohen
-Repository: Private
 
 ⸻
