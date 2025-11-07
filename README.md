@@ -2,7 +2,7 @@
 
 Private Repository — Internal Use Only
 
-This repository contains a proposed slution for Nelo's Credit Risk business case. Goal is to show the ability to identify, test, and monitor rules that reduce First Payment Default (FPD) while maintaining healthy approval rates.
+This repository contains a proposed slution for a consumer lending Credit Risk business case. Goal is to show the ability to identify, test, and monitor rules that reduce First Payment Default (FPD) while maintaining healthy approval rates.
 
 The framework combines statistical rigor, interpretability, and operational scalability to support data-driven credit-policy adjustments. It was built as a reusable, parameter-free system that can be applied across portfolios, seasons, and product types.
 
